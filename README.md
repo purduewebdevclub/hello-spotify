@@ -9,8 +9,10 @@ There are **two** versions of the app. One is with the backend written for you (
 
 ### Run Skeleton
 `cd skeleton`
+
 `node .`
 
 ### Run Solution
 `cd solution`
+
 `node .`
