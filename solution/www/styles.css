@@ -1,0 +1,43 @@
+.card {
+    background-color:#212121;
+    color: white;
+}
+.container-fluid {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.border {
+    border: 1px solid #212121;
+}
+button {
+    background-color: #212121;
+    color: white;
+}
+.interim {
+    color: gray;
+}
+.info {
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+    display: none;
+}
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.light-font {
+    font-size: 40px;
+    line-height: 36px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+.bg-black {
+    background-color: black;
+}

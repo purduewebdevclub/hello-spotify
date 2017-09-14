@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
+                crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+    </head>            
+    <body>
+        <div class="container-fluid">
+            <div style="background: url(background.jpg); height: 125px; color: #191414;">
+                <h1 style="text-align: center; font-weight: 800;"> Hello Spotify Web App </h1>
+                <div class="text-center">
+                    <button onclick="startButton()" class="btn">Start Recognition</button>
+                    <button onclick="stopButton()" class="btn"> Stop Recognition</button>
+                </div>
+                <div class="text-center">
+                    <span> Recognized text: </span>
+                    <span id="final_span" class="final"></span>
+                    <span id="interim_span" class="interim"></span>
+                </div>
+            </div>
+            <div>
+                <div class="search_results row bg-black">
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
