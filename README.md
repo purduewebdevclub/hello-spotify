@@ -6,11 +6,14 @@ There are **two** versions of the app. One is with the backend written for you (
 
 ## Installation
 `git clone https://github.com/purduewebdevclub/hello-spotify`
+Install Nodejs from (here)[https://nodejs.org/en/]
 
 ### Run Skeleton
 `cd skeleton`
+`npm i`
 
 `node .`
+`npm i`
 
 ### Run Solution
 `cd solution`
